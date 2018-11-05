@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Clippings</key>
+	<array>
+		<dict>
+			<key>Abbreviation</key>
+			<string>baseurl@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-15T11:31:43Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-20T14:57:15Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-15T11:33:12Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebUI.navigateToUrl(GlobalVariable.baseurl + "/v3/sales_dashboard")</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>7</integer>
+			<key>uuidString</key>
+			<string>4C2726AB-C92C-4CC4-94E4-64D5CA020934</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>begin@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-04-18T11:43:03Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-04-18T11:43:31Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>log.logWarning('--- Begin test name ---')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>DF7CE372-8EFD-4BC6-B6CE-6BC32F1D9A93</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>chrome@</string>
+			<key>Creation Date</key>
+			<string>2018-07-11T10:35:26Z</string>
+			<key>Label</key>
+			<string></string>
+			<key>Option</key>
+			<string>0</string>
+			<key>Plain Text</key>
+			<string>pkill -f chromedriver</string>
+			<key>SortOrder</key>
+			<string>0</string>
+			<key>uuidString</key>
+			<string>BE8A60BA-5BAB-40BF-9FD8-E27B5C8BDAC9</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>click@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-15T12:02:06Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-15T12:02:15Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebUI.click(findTestObject(null))</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>632B4949-AFA2-4300-8B86-71427CD18978</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>date@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:40:50Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-06-08T10:15:40Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>mydate = new Date()
+formattedDate = mydate.format("MMddyyy")
+dateHour=mydate.format("HHmmss")</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>BF5B3A01-93DC-49F5-B71B-A813ADD15A60</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>day@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:42:37Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:42:39Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>mydate = new Date()
+formattedDate = mydate.format("dd")</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>69205738-F077-4E3B-B48C-C463C59C0D8A</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>delay@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-04-23T14:49:26Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-04-23T14:49:35Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebUI.delay(2)</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>6F7CF176-8991-466D-85B5-D604791EF4C1</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>elementvisible@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-06-07T14:52:57Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-06-07T14:53:06Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>elementVisible = WebUI.verifyTextPresent('This the Plan Summary ' + formattedDate + dateHour, false, FailureHandling.OPTIONAL)
+if (elementVisible == false) {
+	log.logError('ERROR: The Agency Action Plan was not saved correctly')
+	KeywordUtil.markFailedAndStop('ERROR: The Agency Action Plan was not saved correctly')
+} else {
+	log.logWarning('A plan with the Sumamry of: This the Plan Summary ' + formattedDate + dateHour + ' was located')
+}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>115111F2-1076-40A5-90E6-E6B7597267A1</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>errorcheck@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-04-18T11:14:30Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-04-18T11:14:45Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>//Check to make sure the Sales Dashboard page loads. Look for the text, Daily Sales
+CustomKeywords.'errorCheck.validateSalesDashboard.checkPageLoad'('Daily Sales')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>7F060F11-43A0-4C09-94B3-C2B17F5FD48B</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>for@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-12T17:20:21Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-21T11:56:28Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-01-05T13:38:38Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>for (loop = 1; loop &lt;=3; loop++) {
+  println(loop)
+}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>8</integer>
+			<key>uuidString</key>
+			<string>D4E499CC-0BFC-44DA-A785-726CF05EC958</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>gecko@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-07-11T10:35:30Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-07-11T10:35:50Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>pkill -f geckodriver</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>6E7EDB67-94EA-413F-978A-3A859B3E9D62</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>gettext@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T14:59:34Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-21T11:46:43Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-06-29T09:28:26Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>tempText=WebUI.getText(findTestObject('Object', [('Variable') : 1]))</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>8</integer>
+			<key>uuidString</key>
+			<string>3C57C7C6-A586-46CA-9768-43B92404AA66</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>if@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:30:35Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-20T12:23:12Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:31:14Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>if (monthDate&lt;10) {
+println(monthDate)
+	}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>7E113117-2F6D-4530-BEEB-0B6B320D48EF</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>import@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-18T14:52:32Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-20T15:08:24Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-02-28T09:37:42Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.util.KeywordUtil
+		
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import org.openqa.selenium.Keys as Keys
+
+KeywordLogger log = new KeywordLogger()</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>14FD4BB5-C740-477B-8E92-26A732CFCC25</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>keylog@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-15T10:24:49Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-19T16:44:23Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-15T10:25:47Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+KeywordLogger log = new KeywordLogger()</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>7AD609B3-F381-4ECC-AF92-650940BB5D99</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>keys@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-06-08T10:06:29Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-06-08T10:06:34Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>import org.openqa.selenium.Keys as Keys</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>FFCC601E-CF19-42B0-BDD7-E5D4A6AE6B9C</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>list@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-01-05T15:22:25Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-01-05T15:22:32Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>//Create the List
+monthList = []
+
+//A list of items
+item1 = 'January'
+item2 = 'February'
+item3 = 'March'
+
+//Add item to the List using a standard 'push' method
+monthList.push(item1)
+monthList.push(item2)
+monthList.push(item3)
+
+//Print the entire List
+println(monthList[])
+
+//Print an item from the List
+println(monthList[1])</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>1CA8C62E-EEE1-4F87-AED2-5C12899E822C</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>log@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T13:13:24Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-26T09:33:04Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-13T13:13:31Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>log.logWarning('</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>16</integer>
+			<key>uuidString</key>
+			<string>6B60D02C-6A73-4AB6-B1CD-C0C271ABE0CA</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>markederror@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-01-11T12:54:53Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-07-23T14:27:57Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>KeywordUtil.markError('ERROR: ')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>2213D912-0304-4581-95A3-AAAB04751B40</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>markfailed@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-01-05T15:28:34Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-07-23T14:28:06Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>KeywordUtil.markFailed('ERROR: ')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>6B8AC16D-6CC4-4340-B167-8C0A7E2DD7DA</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>month@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:42:51Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:43:00Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>mydate = new Date()
+formattedDate = mydate.format("MM")</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>89CFE1AB-55E9-4E05-B41B-C471A8EF48B3</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>monthtoint@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-01-05T13:51:05Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-01-05T13:51:45Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>//Takes a month in text and converts it to an integer
+//For example, April is converted to 4
+
+String monthText = "October"
+parsedDate = Date.parse('MMM', monthText)
+numberOfMonth = parsedDate.format('MM') as int
+println(monthText + ' is the ' + numberOfMonth + ' month of the year')
+</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>D773DB3E-B5BC-4C4A-BF0A-8F52D2F3128E</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>page@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-05-25T15:53:01Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-05-25T15:53:12Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>CustomKeywords.'errorCheck.confirmPageLoad.checkPageLoad'('TEXT')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>210917B4-0D9A-4817-8EEC-0F477BB1722F</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>printlist@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-20T13:03:19Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-20T16:07:12Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>//Get the number of rows in the table and turn it into a List
+List&lt;WebElement&gt; TotalRowCount = Webtable.findElements(By.xpath('//div[@class=\'company-name\']'))
+
+log.logWarning('The number of Prospects listed is: ' + TotalRowCount.size())
+
+//Read the name of each Prospect by printing all the names pulled from the Webelement TotalRowCount
+//This is a list of the names, which was generated to count how many Prospects were on the page
+//It's a List so each element can be printed.
+for (loop = 0; loop &lt; TotalRowCount.size(); loop++) {
+    //The List starts at 0, but the display will start at 1
+    log.logWarning((('Prospect name #' + (loop + 1)) + ' ') + TotalRowCount.get(loop).getText())
+}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>F2E21750-B313-43AF-A265-91EA2FD2B112</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>random@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:33:19Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:33:28Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>number=Math.abs(new Random().nextInt(100))</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>86E05317-1D66-46D8-9F5A-EC7B9EC7DD65</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>readtable2@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-18T13:02:28Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-19T13:18:02Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement Webtable=driver.findElement(By.id("sales_dash_table")); // Replace TableID with Actual Table ID or Xpath
+	List&lt;WebElement&gt; TotalRowCount=Webtable.findElements(By.xpath("//*[@id='sales_dash_table']/tbody/tr"));
+
+	log.logWarning("No. of Rows in the WebTable: "+TotalRowCount.size());
+	// Now we will Iterate the Table and print the Values   
+	int RowIndex=1;
+	for(WebElement rowElement:TotalRowCount)
+	{
+	      List&lt;WebElement&gt; TotalColumnCount=rowElement.findElements(By.xpath("td"));
+	      int ColumnIndex=1;
+	      for(WebElement colElement:TotalColumnCount)
+	      {
+	           log.logWarning("Row "+RowIndex+" Column "+ColumnIndex+" Data "+colElement.getText());
+	           ColumnIndex=ColumnIndex+1;
+	       }
+	      RowIndex=RowIndex+1;
+	 }
+</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>E54EF684-E66C-42C4-BB3F-BB14C4CBB0C5</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>readtable@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-19T13:18:04Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-20T15:08:39Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-19T15:48:45Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement Webtable=driver.findElement(By.id("sales_dash_table")); // Replace TableID with Actual Table ID or Xpath
+//Get the number of rows in the table and turn it into a List
+List&lt;WebElement&gt; TotalRowCount=Webtable.findElements(By.xpath("//*[@id='sales_dash_table']/tbody/tr"));
+
+//Display the number of rows in the table for the given sales rep
+log.logWarning("No. of Rows in the WebTable: "+TotalRowCount.size());
+
+//Loop through the table and output the information to Log File
+//Read columns 1-4, assign each to a variable, then output the result to the Log File
+for (loop =1;loop&lt;=TotalRowCount.size();loop++)
+{
+	companyName= driver.findElement(By.xpath("//*[@id='sales_dash_table']/tbody/tr[" + (loop)+ "]/td[1]")).getText();
+	log.logWarning('Company Name:=' + companyName)
+	
+	sales= driver.findElement(By.xpath("//*[@id='sales_dash_table']/tbody/tr[" + (loop)+ "]/td[2]")).getText();
+	log.logWarning('Sales Figure Amount:=' + sales)
+	
+	gp= driver.findElement(By.xpath("//*[@id='sales_dash_table']/tbody/tr[" + (loop)+ "]/td[3]")).getText();
+	log.logWarning('Gross Profit:=' + gp)
+	  
+	margin= driver.findElement(By.xpath("//*[@id='sales_dash_table']/tbody/tr[" + (loop)+ "]/td[4]")).getText();
+	log.logWarning('Margin % :=' + margin)
+}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>29E7F5D2-1FCA-497E-9C37-7F5D32636EB5</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>replace$@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-15T09:28:45Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-08-15T13:39:59Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>replaceAll("[^0-9-]","").toInteger()</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>659879B8-659B-438A-A38A-B1539F078E6D</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>replace@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:31:48Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:31:58Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>businessDays = parsedDate[1].replaceAll('\\)', '')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>C6C109CC-3E87-4F04-AEE6-F2C0B452AC9E</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>replacecr@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-20T11:15:58Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-20T11:17:28Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>//Replace the CR LF from a line of text so it can be printed on one line. Text will be separated by a hyphen
+variable = variable.replaceAll('\\n|\\r', ' - ')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>48D030E9-3F54-4DD9-93EF-4FFAB5DFAF7B</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>sendkeys@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-05-09T09:37:08Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-11-05T13:47:03Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebUI.sendKeys(findTestObject('dropdown-Name-Input'), Keys.chord('User Name',Keys.ENTER,Keys.TAB))</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>CBE9331E-EF79-4209-B7F2-53ADD0609070</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>settext@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-06-08T09:19:08Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-11-05T13:47:21Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebUI.setText(findTestObject('Dashboard/Notes/input-Note Title'), 'Note Title')</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>CE1F05B0-55CF-428A-B338-1F5BC4B1CD91</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>split@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:32:19Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-19T16:10:43Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-19T16:14:32Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>String[] parsedDate = importDate.split('- ')[0]
+//Similar to the Split of Javascript, 0 and 1 can be used. 0 is text up to the delimeter. 1 is the text after delimeter</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>B45721F0-43C1-409D-8091-D2D64A58C6F2</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>steploop@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-02-28T16:03:33Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-02-28T16:03:43Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>//Increase the loop by 2 (step 2)
+for (loop = 1; loop &lt;=10; loop+=2) {
+  println(loop)
+}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>E3D899B2-0432-450B-BE02-C4F29685C474</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>storexpath@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-20T10:23:34Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-20T10:23:50Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebDriver driver = DriverFactory.getWebDriver()
+
+//Set the Element to the XPATH for the list of Task Details
+WebElement Webtable=driver.findElement(By.xpath("//div[@class='task-detail']")); // Replace TableID with Actual Table ID or Xpath
+//Get the number of rows in the table and turn it into a List
+List&lt;WebElement&gt; TotalRowCount=Webtable.findElements(By.xpath("//div[@class='task-detail']"));
+log.logWarning("The number of Task Items is: "+TotalRowCount.size());</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>0AB9AB3F-A54C-4629-82BB-CAFF865A9249</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>substring@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:31:26Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:31:34Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>monthDay = businessDays.substring(10,11)</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>F5808F50-8A74-4868-91B9-020F4DC00B31</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>throw@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-01-26T12:15:51Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-11-05T13:48:18Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>elementPresent=WebUI.verifyElementPresent(findTestObject('Customer Profile/Tabs/tab-2018 Plan'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+//If the 2018 Plan tab isn't present, give an error and exit.
+if (elementPresent==false) {
+	KeywordUtil.markError('ERROR: 2018 Plan tab is not available for this customer. No test to execute')
+	throw new AssertionError('ERROR: 2018 Plan tab is not available for this customer. No test to execute')
+}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>99586D7A-46BA-42E6-A7AC-84C95AB2F29A</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>time@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:45:09Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:45:31Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>mydate = new Date()
+dateHour=mydate.format("HH:mm:ss")</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>FA6BA11A-E3D6-4040-B1EB-FA8C8921C77A</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>today@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:40:57Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:41:33Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>mydate = new Date()
+formattedDate = mydate.format("EEEE")</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>744B421A-EC3C-4972-BEC7-BB6046ACC489</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>tointeger@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:49:59Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-20T12:26:17Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:50:12Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>if (monthDate.toInteger()&lt;10) </string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>4A740854-8788-4D34-A61E-98F1174A346D</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>tostring@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:50:15Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:50:41Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>log.logWarning(arrStr.toString())</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>7EBE25C6-7CD0-41CA-A19E-A50D04C52CE6</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>try@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-01-18T15:11:24Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-01-19T09:29:38Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>//Look for the text, Daily Sales Detail on the Page.
+//If it's not there, there is a problem loading the page and the test should exit as the rest of the steps will fail
+try {
+	elementPresent=WebUI.verifyTextPresent("Daily Sales Detail", false)
+}
+
+catch (Exception e) {
+	title = WebUI.getWindowTitle()
+	log.logWarning('ERROR: The title of the Sales Detail Page is:=' + title)
+	throw new AssertionError('ERROR: The Sales Detail Page did not load correctly', e)
+}</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>17D40906-BD9E-4EDE-ABBC-086CC490429D</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>util@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-05-30T12:23:58Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-05-30T12:24:18Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>import com.kms.katalon.core.util.KeywordUtil</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>79454996-C865-46DC-BE98-33AE04C6A22B</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>w@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T14:44:15Z</string>
+			<key>DateLastUsed</key>
+			<string>2017-12-19T12:30:09Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Modification Date</key>
+			<string>2017-12-13T14:44:24Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebUI.</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>TotUsed</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>37E4152C-953F-453C-A6D0-8A5A33BBFB20</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>wait@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-01-29T14:12:57Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-11-05T13:49:35Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>WebUI.waitForElementVisible(findTestObject('Budget Admin Dashboard/textfield-Branch Number'), 15)</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>43012DD2-0F69-41F8-BDE2-C837B033891F</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>webdriver@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-15T13:07:18Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-06-06T12:17:04Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.annotation.Keyword
+
+WebDriver driver = DriverFactory.getWebDriver()
+customerName = driver.findElements(By.xpath('//table[@id=\'sales_dash_table\']/tbody/tr[2]/td[1]'))</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>6C87A90E-A140-4985-8CD9-24BE4639A89A</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>year@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2017-12-13T09:43:01Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2017-12-13T09:44:14Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>mydate = new Date()
+formattedDate = mydate.format("yyy")</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>9B89D620-0188-4D5F-9B60-000C8DC92724</string>
+		</dict>
+		<dict>
+			<key>Abbreviation</key>
+			<string>updated@</string>
+			<key>CreatedBy</key>
+			<string>Peter Wilson</string>
+			<key>Creation Date</key>
+			<string>2018-11-05T13:50:08Z</string>
+			<key>Device</key>
+			<string>PW-BigMac</string>
+			<key>Label</key>
+			<string></string>
+			<key>Modification Date</key>
+			<string>2018-11-05T13:50:17Z</string>
+			<key>Option</key>
+			<string></string>
+			<key>Plain Text</key>
+			<string>Updated %m-%d-%Y %H:%M%p by Pete Wilson</string>
+			<key>SortOrder</key>
+			<string>1</string>
+			<key>uuidString</key>
+			<string>8B666A3A-8167-446E-830A-076927D7637B</string>
+		</dict>
+	</array>
+	<key>sortOrderForThisSet</key>
+	<string>0</string>
+	<key>unsavedChanges</key>
+	<false/>
+	<key>uuidCheckDone</key>
+	<string>yes</string>
+</dict>
+</plist>
