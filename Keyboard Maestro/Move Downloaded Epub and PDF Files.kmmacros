@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>631138509.22360504</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>lsof -c /firefox/i | grep "/Users/&lt;username&gt;/Downloads/"
+sleep 3</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>instance_lsof_out</string>
+							</dict>
+						</array>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instance_lsof_out</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>Until</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%TriggerValue%</string>
+						<key>Variable</key>
+						<string>instance_fileName</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Notification</string>
+						<key>SoundName</key>
+						<string></string>
+						<key>Subtitle</key>
+						<string>Download Complete</string>
+						<key>Text</key>
+						<string>%Variable%instance_fileName%</string>
+						<key>Title</key>
+						<string>%ExecutingMacro%</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instance_fileName</string>
+									<key>VariableConditionType</key>
+									<string>Contains</string>
+									<key>VariableValue</key>
+									<string>sql</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Destination</key>
+								<string>/Volumes/Data Storage/eBook/SQL</string>
+								<key>MacroActionType</key>
+								<string>File</string>
+								<key>Operation</key>
+								<string>Move</string>
+								<key>Source</key>
+								<string>%Variable%instance_fileName%</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instance_fileName</string>
+									<key>VariableConditionType</key>
+									<string>Contains</string>
+									<key>VariableValue</key>
+									<string>swift</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Destination</key>
+								<string>/Volumes/Data Storage/eBook/Swift Programming</string>
+								<key>MacroActionType</key>
+								<string>File</string>
+								<key>Operation</key>
+								<string>Move</string>
+								<key>Source</key>
+								<string>%Variable%instance_fileName%</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instance_fileName</string>
+									<key>VariableConditionType</key>
+									<string>Contains</string>
+									<key>VariableValue</key>
+									<string>java</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Destination</key>
+								<string>/Volumes/Data Storage/eBook/Java Programming</string>
+								<key>MacroActionType</key>
+								<string>File</string>
+								<key>Operation</key>
+								<string>Move</string>
+								<key>Source</key>
+								<string>%Variable%instance_fileName%</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instance_fileName</string>
+									<key>VariableConditionType</key>
+									<string>Contains</string>
+									<key>VariableValue</key>
+									<string>bdd</string>
+								</dict>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instance_fileName</string>
+									<key>VariableConditionType</key>
+									<string>Contains</string>
+									<key>VariableValue</key>
+									<string>behavior driven development</string>
+								</dict>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instance_fileName</string>
+									<key>VariableConditionType</key>
+									<string>Contains</string>
+									<key>VariableValue</key>
+									<string>selenium</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>Any</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsActive</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Destination</key>
+								<string>/Volumes/Data Storage/eBook/Automation Programming</string>
+								<key>MacroActionType</key>
+								<string>File</string>
+								<key>Operation</key>
+								<string>Move</string>
+								<key>Source</key>
+								<string>%Variable%instance_fileName%</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>SourceVariable</key>
+						<string>instance_fileName</string>
+						<key>Text</key>
+						<string>#!/bin/sh
+
+shopt -s nocaseglob #Turn off case sensitivity for files
+shopt -s nocasematch # Turn off case sensitivity for case statement compare
+
+target=/"Volumes/Data Storage/eBook"
+source=$KMVAR_instance_fileName
+
+case "$KMVAR_instance_fileName" in
+
+	*"sql"*)		
+	mv "$source" "$target/SQL/";;
+	
+	*"java"*|"*groovy*")	
+	mv "$source" "$target/Java Programming";;
+
+	*"bdd"*|*"selenium"*|*"gherkin"*)	
+	mv "$source" "$target/Automation Programming";;
+
+	*c?programming*)	
+	mv "$source" "$target/C Programming";;
+
+	*shell?programming*|*the?shell*|*"unix"*|*"linux"*)
+	mv "$source" "$target/Shell Programming";;
+
+	*technical?writing*)	
+	mv "$source" "$target/Technical Writing";;
+
+	*"oxford"*|*"grammar"*|*"dictionary"*|*"thesaurus"*|*"english"*)
+	mv "$source" "$target/Grammar";;
+	
+	*"choose your own"*)
+	mv "$source" "$target/Choose Your Own Adventure";;
+
+	*".epub"*)
+	mv "$source" "$target";;
+
+	*)
+	echo "Download does not match any criteria.";;
+	
+esac
+	
+shopt -u nocaseglob #Turn on case sensitivity</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>637705656.03400004</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>639500799.15377295</real>
+				<key>Name</key>
+				<string>Move Downloaded Epub and PDF Files</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Interest</key>
+						<dict>
+							<key>Observe</key>
+							<string>Add</string>
+							<key>ObserveWhen</key>
+							<string>WaitCompletion</string>
+							<key>Path</key>
+							<string>~/Downloads</string>
+							<key>UID2</key>
+							<string>58E2569C-DAAD-4F65-B724-DB721F9B7DD8</string>
+						</dict>
+						<key>MacroTriggerType</key>
+						<string>Folder</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>BB97855C-48C9-41F0-AC35-EEBF947F87B8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>75B3DD7A-D92D-41CC-8899-17B319CA8063</string>
+		<key>UID</key>
+		<string>693DE618-89F6-4B79-BE44-911233DDB787</string>
+	</dict>
+</array>
+</plist>
