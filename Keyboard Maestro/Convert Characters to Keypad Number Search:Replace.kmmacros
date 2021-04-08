@@ -20,8 +20,8 @@
 						<key>StyledText</key>
 						<data>
 						cnRmZAAAAAADAAAAAgAAAAcAAABU
-						WFQucnRmAQAAAC6HAwAAKwAAAAEA
-						AAB/AwAAe1xydGYxXGFuc2lcYW5z
+						WFQucnRmAQAAAC7hAgAAKwAAAAEA
+						AADZAgAAe1xydGYxXGFuc2lcYW5z
 						aWNwZzEyNTJcY29jb2FydGYxNjcx
 						XGNvY29hc3VicnRmNjAwCntcZm9u
 						dHRibFxmMFxmc3dpc3NcZmNoYXJz
@@ -51,21 +51,14 @@
 						ZXMgdGhlIGlucHV0LCByZW1vdmVz
 						IHNwYWNlcywgY29udmVydCB0aGUg
 						dGV4dCB0byBsb3dlcmNhc2UsIHRo
-						ZW4gc2VwYXJhdGVzIHRoZSBzdHJp
-						bmcgaW50byBhIGNvbW1hIHNlcGFy
-						YXRlZCBsaXN0XApUaGUgbGlzdCBp
-						cyB0aGVuIHBhcnNlZCBhbmQgZWFj
-						aCBjaGFyYWN0ZXIgaXMgY29udmVy
-						dGVkIHRvIGEgbnVtYmVyIHVzaW5n
-						IGEgQ2FzZSBzdGF0ZVwKRm9yIGV4
-						YW1wbGUsIGEsYixjIGFyZSBlcXVh
-						bCB0byAxLiBUaGlzIGlzIHJlcHJl
-						c2VudGVkIGFzIFthLWNdIHVzaW5n
-						IFJlZ0V4LlwKXApUaGUgZmluYWwg
-						b3V0cHV0IGlzIHRoZW4gY29waWVk
-						IHRvIHRoZSBjbGlwYm9hcmQufQEA
-						AAAjAAAAAQAAAAcAAABUWFQucnRm
-						EAAAAKo1a2C2AQAAAAAAAAAAAAA=
+						ZW4gcGVyZm9ybXMgYSBzZWFyY2gv
+						cmVwbGFjZSBvbiB0aGUgdGV4dFwK
+						QmxvY2tzIG9mIGNoYXJhY3RlcnMg
+						YXJlIHJlcGxhY2VkIHdpdGggYSBu
+						dW1lcmljYWwgZXF1aXZhbGVudC59
+						AQAAACMAAAABAAAABwAAAFRYVC5y
+						dGYQAAAA2wdvYLYBAAAAAAAAAAAA
+						AA==
 						</data>
 						<key>Title</key>
 						<string>Convert a series of text to number equivalents based on phone keypad</string>
@@ -84,6 +77,8 @@
 								<true/>
 							</dict>
 						</array>
+						<key>IsDisclosed</key>
+						<false/>
 						<key>MacroActionType</key>
 						<string>PromptForUserInput</string>
 						<key>Prompt</key>
@@ -138,6 +133,8 @@
 					<dict>
 						<key>Action</key>
 						<string>IgnoreCaseRegEx</string>
+						<key>IsDisclosed</key>
+						<false/>
 						<key>MacroActionType</key>
 						<string>SearchReplace</string>
 						<key>Replace</key>
@@ -275,7 +272,7 @@
 				<key>CreationDate</key>
 				<real>639580497.77947795</real>
 				<key>ModificationDate</key>
-				<real>639581185.237306</real>
+				<real>639582056.27647197</real>
 				<key>Name</key>
 				<string>Convert Characters to Keypad Number Search/Replace</string>
 				<key>Triggers</key>
